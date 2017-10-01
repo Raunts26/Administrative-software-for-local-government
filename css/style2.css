@@ -1,0 +1,54 @@
+
+.column-hover {
+  background-color #fff;
+  cursor: pointer;
+}
+
+.column-hover td:hover{
+  background-color #000;
+
+}
+
+.blocked {
+  background-color: rgb(255, 138, 138);
+  cursor: pointer;
+   width: 15%;
+}
+
+.pinned {
+  background-color: rgb(255, 98, 98);
+  cursor: pointer;
+}
+
+.almost {
+  background-color: rgb(255, 178, 133);
+}
+
+.text-date {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+th {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.table-no-border th {
+  text-align: left;
+  border: 0;
+}
+
+.del-btn {
+  color: #ec0202;
+}
+
+.edit-btn {
+  color: #0cbce4;
+}
+
+.del-btn,
+.edit-btn {
+  cursor: pointer;
+  font-size: 16px;
+}

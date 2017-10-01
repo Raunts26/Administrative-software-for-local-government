@@ -1,0 +1,293 @@
+@font-face {
+    font-family: open-sans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+  font-family: 'open-sans','Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'open-sans','Source Sans Pro',sans-serif;
+}
+
+.checkbox-list {
+  padding: 0;
+  /*height: 34px;*/
+}
+
+.checkbox-list li {
+  list-style: none;
+  /*float: left;
+  padding-right: 5px;*/
+}
+
+.list-toleft li {
+  float: left;
+  padding-right: 5px;
+}
+
+.content-header>.breadcrumb>li+li:before,
+.breadcrumb>li+li:before {
+  content: none !important;
+}
+
+.maintance_data,
+.maintance_edit_data {
+  resize: none !important;
+}
+
+.user_adding {
+  background: none;
+  border-radius: 0px;
+  border-left: 0px;
+  width: 15%;
+}
+.user_adding:focus {
+  background: none;
+  border-radius: 0px;
+  border: 1px solid #ddd;
+  border-left: 0px;
+}
+
+.responsible_label {
+  width: 100%;
+}
+
+.empty_button {
+  border-top: 0px;
+}
+
+.empty_button:active,
+.empty_button:hover,
+.empty_button:focus {
+  box-shadow: none;
+  background: none !important;
+  border-right: 1px solid #ddd !important;
+  border-bottom: 1px solid #ddd !important;
+  cursor: default;
+}
+
+.empty_button i {
+  visibility: hidden;
+}
+
+#add_edit_user_responsible {
+  border-left: 1px solid #ddd;
+  width: 85%;
+  border-top: 0px;
+  float: left;
+}
+
+#add_user_responsible {
+  border-left: 1px solid #ddd;
+  width: 100%;
+  border-top: 0px;
+  float: left;
+
+}
+
+#plan-me {
+  height: 350px;
+}
+
+#floor-img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+#attach-new {
+  display: none;
+}
+
+#maintance_table thead th {
+  text-align: center !important;
+}
+
+.archive_object {
+  cursor: pointer;
+}
+
+.active_object {
+  font-weight: 600;
+}
+
+button {
+  outline: 0 !important;
+}
+
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #e2231a;
+}
+
+.box.box-danger {
+    border-top-color: #e2231a;
+}
+
+.bg-red, .callout.callout-danger, .alert-danger, .alert-error, .label-danger, .modal-danger .modal-body {
+    background-color: #e2231a !important;
+}
+
+.calendar-rmv {
+  border-top: 0;
+  box-shadow: 0 0px 1px rgba(0,0,0,0.1);
+}
+
+.modal-nav {
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.modal-tab {
+  border-bottom: 0px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.rmv-doc {
+  font-size: 12px;
+  color: #de0000;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 150px;
+  margin-top: -20px;
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+}
+
+.margin-top-10 {
+  padding-top: 10px;
+}
+
+.rmv-pdg-left {
+  padding-left: 0;
+}
+
+.rmv-pdg-right {
+  padding-right: 0;
+}
+
+.rmv-pdg-bottom {
+  padding-bottom: 0;
+}
+
+input[type=file] {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+/*button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    color: #000;
+}*/
+
+.set-white {
+  background: none;
+}
+
+.dropzone {
+  width: 100%;
+  height: 200px;
+  background: #c8c8c8;
+}
+
+.del-btn {
+  color: #ec0202 !important;
+}
+
+.edit-btn {
+  color: #0cbce4 !important;
+}
+
+.del-btn,
+.edit-btn {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.column-hover {
+  background-color #fff;
+  cursor: pointer;
+}
+
+.column-hover td:hover{
+  background-color #000;
+
+}
+
+.blocked {
+  background-color: rgb(255, 138, 138);
+  cursor: pointer;
+   width: 15%;
+}
+
+.del-btn {
+  color: #ec0202;
+}
+
+.edit-btn {
+  color: #0cbce4;
+}
+
+.view-btn {
+  color: #908f8f;
+}
+
+.del-btn,
+.edit-btn,
+.view-btn {
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.skin-red .sidebar-menu>li:hover>a, .skin-red .sidebar-menu>li.active>a {
+  border-left-color: #e2231a !important;
+}
+
+.product-span {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+  display: block;
+  float: left;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 35px;
+  /* line-height: 90px; */
+  background: rgba(0,0,0,0.2);
+}
+
+.font-ok {
+  font-size: 100% !important;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.table-fix {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.fix-table-content {
+  word-break: break-word;
+}
+
+button.btn.btn-box-tool {
+    font-size: 13px;
+}
